@@ -1,0 +1,18 @@
+/* src/pages/TimerPage.css */
+
+.timer-page-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.timer-page-header h1 {
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.timer-page-header p {
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,87 @@
+/* src/components/FocusTimer.css */
+
+.focus-timer-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    max-width: 350px;
+    margin: 2rem auto;
+}
+
+.focus-timer-container h3 {
+    color: #1c1e21;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.timer-display {
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #5c67f2;
+    margin-bottom: 2rem;
+}
+
+.timer-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.control-button {
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.control-button {
+    background: linear-gradient(90deg, #5c67f2, #7b8bff);
+}
+
+.control-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(92, 103, 242, 0.3);
+}
+
+.reset-button {
+    background: #f0f2f5;
+    color: #4b4f56;
+}
+
+.reset-button:hover {
+    background: #e4e6eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Add this to the end of src/components/FocusTimer.css */
+
+.timer-presets {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem; /* Adds space between presets and main controls */
+}
+
+.preset-button {
+    background: #e4e6eb;
+    color: #4b4f56;
+    border: none;
+    border-radius: 16px; /* Pill shape */
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.preset-button:hover {
+    background-color: #d8dbdf;
+    transform: translateY(-2px);
+}
